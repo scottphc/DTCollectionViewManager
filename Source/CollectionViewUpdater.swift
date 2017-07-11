@@ -46,14 +46,17 @@ open class CollectionViewUpdater : StorageUpdating {
     open func storageDidPerformUpdate(_ update : StorageUpdate)
     {
         willUpdateContent?(update)
-        collectionView?.performBatchUpdates({ [weak self] in
-            self?.applyObjectChanges(from: update)
-            self?.applySectionChanges(from: update)
-            }, completion: { [weak self] _ in
-                if update.sectionChanges.count > 0 {
-                    self?.collectionView?.reloadData()
-                }
-        })
+
+        // workaround: https://openradar.appspot.com/28167779 | may have not good UX
+        collectionView?.reloadData()
+//        collectionView?.performBatchUpdates({ [weak self] in
+//            self?.applyObjectChanges(from: update)
+//            self?.applySectionChanges(from: update)
+//            }, completion: { [weak self] _ in
+//                if update.sectionChanges.count > 0 {
+//                    self?.collectionView?.reloadData()
+//                }
+//        })
         didUpdateContent?(update)
     }
     
