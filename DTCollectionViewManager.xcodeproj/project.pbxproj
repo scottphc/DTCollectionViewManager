@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A08A9C91B8A249300877C62 /* DTCollectionViewManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE671491AEE61F800B25A5F /* DTCollectionViewManager.framework */; };
 		9A1B88081CE1E1E1005B6F07 /* NibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A1B87ED1CE1E19D005B6F07 /* NibCell.xib */; };
 		9A1B88091CE1E1E1005B6F07 /* NibHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A1B87EE1CE1E19D005B6F07 /* NibHeaderFooterView.xib */; };
 		9A1B880A1CE1E1E1005B6F07 /* NibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A1B87EF1CE1E19D005B6F07 /* NibView.xib */; };
@@ -36,9 +35,6 @@
 		9A2C6E431BE3ED4C001D25DB /* SupplementaryMappingTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C6E421BE3ED4C001D25DB /* SupplementaryMappingTestCase.swift */; };
 		9A3243951CE34D5800C32A5B /* DTModelStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3243791CE34D4D00C32A5B /* DTModelStorage.framework */; };
 		9A3243981CE34D5E00C32A5B /* DTModelStorage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3243791CE34D4D00C32A5B /* DTModelStorage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9A32439D1CE34D7C00C32A5B /* DTModelStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3243791CE34D4D00C32A5B /* DTModelStorage.framework */; };
-		9A32439E1CE34D8000C32A5B /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A32438A1CE34D5200C32A5B /* Nimble.framework */; };
-		9A3243A31CE34DBE00C32A5B /* DTModelStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3243791CE34D4D00C32A5B /* DTModelStorage.framework */; };
 		9A3243A61CE34DC600C32A5B /* DTModelStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A32437D1CE34D4D00C32A5B /* DTModelStorage.framework */; };
 		9A3243AB1CE34DD300C32A5B /* DTModelStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A32437D1CE34D4D00C32A5B /* DTModelStorage.framework */; };
 		9A3243AC1CE34DD700C32A5B /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3243921CE34D5200C32A5B /* Nimble.framework */; };
@@ -99,16 +95,11 @@
 		9AFD89011C42B73F00254257 /* StoryboardMappingTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD89001C42B73F00254257 /* StoryboardMappingTestCase.swift */; };
 		9AFD89021C42B73F00254257 /* StoryboardMappingTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD89001C42B73F00254257 /* StoryboardMappingTestCase.swift */; };
 		9AFD89101C42C80C00254257 /* FixtureStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFD890F1C42C80C00254257 /* FixtureStoryboard.storyboard */; };
+		D23F61F01F186CBA001C4377 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23F61EE1F186CBA001C4377 /* Realm.framework */; };
+		D23F61F11F186CBA001C4377 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23F61EF1F186CBA001C4377 /* RealmSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9A08A9C71B8A248F00877C62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 955F857A179ACAF000A38EAD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9AE671481AEE61F800B25A5F;
-			remoteInfo = DTCollectionViewManager;
-		};
 		9A3243781CE34D4D00C32A5B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9A32436F1CE34D4D00C32A5B /* DTModelStorage.xcodeproj */;
@@ -186,27 +177,6 @@
 			remoteGlobalIDString = 9A2A385A1AEE24340021E97D;
 			remoteInfo = "DTModelStorage-iOS";
 		};
-		9A3243991CE34D6E00C32A5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9A32436F1CE34D4D00C32A5B /* DTModelStorage.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 9A2A385A1AEE24340021E97D;
-			remoteInfo = "DTModelStorage-iOS";
-		};
-		9A32439F1CE34D9300C32A5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9A3243801CE34D5200C32A5B /* Nimble.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 1F1A74281940169200FFFC47;
-			remoteInfo = "Nimble-iOS";
-		};
-		9A3243A11CE34DA100C32A5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9A32436F1CE34D4D00C32A5B /* DTModelStorage.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 9A2A385A1AEE24340021E97D;
-			remoteInfo = "DTModelStorage-iOS";
-		};
 		9A3243A41CE34DC300C32A5B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9A32436F1CE34D4D00C32A5B /* DTModelStorage.xcodeproj */;
@@ -241,6 +211,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9AE671481AEE61F800B25A5F;
 			remoteInfo = DTCollectionViewManager;
+		};
+		D23F61E11F18635B001C4377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A32436F1CE34D4D00C32A5B /* DTModelStorage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A2A385A1AEE24340021E97D;
+			remoteInfo = "DTModelStorage-iOS";
+		};
+		D23F61E71F1867B5001C4377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3243801CE34D5200C32A5B /* Nimble.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F1A74281940169200FFFC47;
+			remoteInfo = "Nimble-iOS";
+		};
+		D23F61E91F1867BF001C4377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 955F857A179ACAF000A38EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE671481AEE61F800B25A5F;
+			remoteInfo = "DTCollectionViewManager-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -328,6 +319,8 @@
 		9AFD88FD1C42B68300254257 /* StoryboardCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardCollectionReusableView.swift; sourceTree = "<group>"; };
 		9AFD89001C42B73F00254257 /* StoryboardMappingTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardMappingTestCase.swift; sourceTree = "<group>"; };
 		9AFD890F1C42C80C00254257 /* FixtureStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FixtureStoryboard.storyboard; path = Fixtures/tvOS/FixtureStoryboard.storyboard; sourceTree = "<group>"; };
+		D23F61EE1F186CBA001C4377 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		D23F61EF1F186CBA001C4377 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,9 +337,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A32439E1CE34D8000C32A5B /* Nimble.framework in Frameworks */,
-				9A32439D1CE34D7C00C32A5B /* DTModelStorage.framework in Frameworks */,
-				9A08A9C91B8A249300877C62 /* DTCollectionViewManager.framework in Frameworks */,
+				D23F61F01F186CBA001C4377 /* Realm.framework in Frameworks */,
+				D23F61F11F186CBA001C4377 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +364,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A3243A31CE34DBE00C32A5B /* DTModelStorage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +443,8 @@
 		9A423E751BE6054700A81045 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D23F61EE1F186CBA001C4377 /* Realm.framework */,
+				D23F61EF1F186CBA001C4377 /* RealmSwift.framework */,
 				9A32436F1CE34D4D00C32A5B /* DTModelStorage.xcodeproj */,
 				9A3243801CE34D5200C32A5B /* Nimble.xcodeproj */,
 			);
@@ -616,9 +609,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				9A3243A01CE34D9300C32A5B /* PBXTargetDependency */,
-				9A32439A1CE34D6E00C32A5B /* PBXTargetDependency */,
-				9A08A9C81B8A248F00877C62 /* PBXTargetDependency */,
+				D23F61EA1F1867BF001C4377 /* PBXTargetDependency */,
+				D23F61E81F1867B5001C4377 /* PBXTargetDependency */,
 			);
 			name = "Tests-iOS";
 			productName = ExampleTests;
@@ -672,7 +664,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9A3243A21CE34DA100C32A5B /* PBXTargetDependency */,
+				D23F61E21F18635B001C4377 /* PBXTargetDependency */,
 			);
 			name = "DTCollectionViewManager-iOS";
 			productName = DTCollectionViewManager;
@@ -954,30 +946,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9A08A9C81B8A248F00877C62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9AE671481AEE61F800B25A5F /* DTCollectionViewManager-iOS */;
-			targetProxy = 9A08A9C71B8A248F00877C62 /* PBXContainerItemProxy */;
-		};
 		9A3243971CE34D5B00C32A5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "DTModelStorage-iOS";
 			targetProxy = 9A3243961CE34D5B00C32A5B /* PBXContainerItemProxy */;
-		};
-		9A32439A1CE34D6E00C32A5B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "DTModelStorage-iOS";
-			targetProxy = 9A3243991CE34D6E00C32A5B /* PBXContainerItemProxy */;
-		};
-		9A3243A01CE34D9300C32A5B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Nimble-iOS";
-			targetProxy = 9A32439F1CE34D9300C32A5B /* PBXContainerItemProxy */;
-		};
-		9A3243A21CE34DA100C32A5B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "DTModelStorage-iOS";
-			targetProxy = 9A3243A11CE34DA100C32A5B /* PBXContainerItemProxy */;
 		};
 		9A3243A51CE34DC300C32A5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1003,6 +975,21 @@
 			isa = PBXTargetDependency;
 			target = 9AE671481AEE61F800B25A5F /* DTCollectionViewManager-iOS */;
 			targetProxy = 9ADFC8FA1B8B7F3F00AB4CD9 /* PBXContainerItemProxy */;
+		};
+		D23F61E21F18635B001C4377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DTModelStorage-iOS";
+			targetProxy = D23F61E11F18635B001C4377 /* PBXContainerItemProxy */;
+		};
+		D23F61E81F1867B5001C4377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Nimble-iOS";
+			targetProxy = D23F61E71F1867B5001C4377 /* PBXContainerItemProxy */;
+		};
+		D23F61EA1F1867BF001C4377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AE671481AEE61F800B25A5F /* DTCollectionViewManager-iOS */;
+			targetProxy = D23F61E91F1867BF001C4377 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1171,6 +1158,10 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -1197,6 +1188,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -1348,6 +1343,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1387,6 +1386,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
